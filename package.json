@@ -18,4 +18,9 @@
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
+  "scripts": {
+  "start": "nodemon app.js",
+  "test": "echo 'No tests defined' && exit 0", // Placeholder if you don't have tests
+  "build": "echo 'Build step not defined yet'" // Placeholder for build script
+}
 }
