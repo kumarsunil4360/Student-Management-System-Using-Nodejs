@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "test": "echo 'No tests defined' && exit 0", // Placeholder if you don't have tests
+    "build": "echo 'Build step not defined yet'" // Placeholder for build script
   },
   "author": "",
   "license": "ISC",
@@ -18,9 +20,4 @@
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
-  "scripts": {
-  "start": "nodemon app.js",
-  "test": "echo 'No tests defined' && exit 0", // Placeholder if you don't have tests
-  "build": "echo 'Build step not defined yet'" // Placeholder for build script
-}
 }
